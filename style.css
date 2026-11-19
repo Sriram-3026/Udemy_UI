@@ -21,7 +21,7 @@ body {
 }
 
 .navbar__s2 {
-    padding: 10px;
+    padding:10px;
     border: solid black 1px;
     border-radius: 30px;
     width: 60%;
@@ -29,6 +29,7 @@ body {
     gap: 10px;
     align-items: center;
 }
+
 
 .navbar__s2 input {
     border: none;
@@ -49,8 +50,12 @@ body {
 
 .navbar__s3 p:hover {
     color: #A435F0;
-    background-color: rgb(223, 223, 223);
-    
+    background-color: rgb(223, 223, 223);    
+}
+
+.navbar__s3 i:hover{
+    background-color:#dbd4e0;
+    padding:none;
 }
 
 .categories {
@@ -78,6 +83,11 @@ body {
 
 .recommended {
     padding: 10px;
+    
+}
+
+.course-card:hover{
+    background-color:#dbd4e0;
 
 }
 
@@ -85,7 +95,7 @@ body {
     flex-wrap: wrap;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -100,6 +110,10 @@ body {
 
 .topics {
     padding: 10px;
+}
+
+.topics__container p:hover{
+    background-color:#dbd4e0;
 }
 
 .topics__container {
